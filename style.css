@@ -1,4 +1,4 @@
-/* ====== Vispārējais lapas stils ====== */
+
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #f7f9fc;
@@ -11,7 +11,7 @@ body {
   min-height: 100vh;
 }
 
-/* ====== Virsraksts ====== */
+
 h1 {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -20,7 +20,7 @@ h1 {
   text-align: center;
 }
 
-/* ====== Tabulas konteiners ====== */
+
 table {
   border-collapse: collapse;
   width: 90%;
@@ -31,7 +31,7 @@ table {
   overflow: hidden;
 }
 
-/* ====== Galvene ====== */
+
 thead {
   background-color: #1e3a8a;
   color: white;
@@ -43,19 +43,19 @@ thead th {
   text-align: left;
 }
 
-/* ====== Dati ====== */
+
 tbody td {
   padding: 12px;
   border-bottom: 1px solid #e5e7eb;
 }
 
-/* ====== Hover efekts ====== */
+
 tbody tr:hover {
   background-color: #f1f5f9;
   transition: background-color 0.2s;
 }
 
-/* ====== Statusa krāsas ====== */
+
 td:last-child {
   font-weight: 600;
 }
@@ -68,7 +68,7 @@ td:last-child:contains("Pasīvs") {
   color: #b91c1c; /* sarkans */
 }
 
-/* ====== Footer vai autorteksts ====== */
+
 footer {
   margin-top: auto;
   padding: 20px;
