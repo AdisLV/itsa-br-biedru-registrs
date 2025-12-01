@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="lv">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITSA BR – Biedru reģistrs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
 </head>
 <body>
     <h1>ITSA BR Biedru saraksts</h1>
 
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>ID</th>
@@ -15,12 +19,12 @@
             </tr>
         </thead>
         <tbody id="members-table">
-            <!-- Te JavaScript ieliks biedru datus -->
+            <!-- JavaScript ieliks biedru datus -->
         </tbody>
     </table>
 
-    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
-<script src="script.js"></script>
+    <footer>© 2025 ITSA BR Reģistrs</footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
