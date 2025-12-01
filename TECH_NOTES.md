@@ -17,7 +17,7 @@
 | Frontend | HTML, CSS, JavaScript |
 | Backend / API | Supabase (PostgreSQL + REST API) |
 | Hosting | GitHub Pages |
-| Versiju kontrole | Git & GitHub |
+| Versiju kontrole | GitHub |
 
 
 ## 3. Supabase tabulas struktūra
@@ -28,10 +28,3 @@
 | name | text | Biedra vārds un uzvārds |
 | status | text | Biedra statuss (Aktīvs, Neaktīvs, Cits) |
 
-SQL tabulas veidošanas kods:
-```sql
-create table members (
-  id bigint generated always as identity primary key,
-  name text,
-  status text
-);
