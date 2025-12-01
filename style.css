@@ -45,4 +45,33 @@ thead th {
 
 /* ====== Dati ====== */
 tbody td {
-  paddin
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* ====== Hover efekts ====== */
+tbody tr:hover {
+  background-color: #f1f5f9;
+  transition: background-color 0.2s;
+}
+
+/* ====== Statusa krāsas ====== */
+td:last-child {
+  font-weight: 600;
+}
+
+td:last-child:contains("Aktīvs") {
+  color: #15803d; /* zaļš */
+}
+
+td:last-child:contains("Pasīvs") {
+  color: #b91c1c; /* sarkans */
+}
+
+/* ====== Footer vai autorteksts ====== */
+footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
