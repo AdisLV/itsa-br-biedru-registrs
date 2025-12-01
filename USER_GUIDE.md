@@ -6,8 +6,8 @@
 
 ## 2. Kā atvērt lietotni?
 1. Atver tīmekļa pārlūkprogrammu (Chrome, Edge, Firefox).
-2. Adreses joslā ievadi projekta GitHub Pages adresi (piemēram):  
-   `https://tavs-lietotajvards.github.io/itsabr-members/`
+2. Adreses joslā ievadi projekta GitHub Pages adresi:  
+   `https://adislv.github.io/itsa-br-biedru-registrs/`
 3. Kad lapa ielādējas, automātiski tiek parādīts biedru saraksts.
 
 
@@ -18,7 +18,6 @@ Lietotnē būs redzams saraksts tabulas formā:
 |----|-------|---------|
 | 1 | Jānis Bērziņš | Aktīvs |
 | 2 | Anna Liepa | Neaktīvs |
-| 3 | Pēteris Ozols | Cits |
 
 - **ID** — unikāls biedra numurs
 - **Vārds** — biedra vārds un uzvārds
